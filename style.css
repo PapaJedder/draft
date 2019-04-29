@@ -1,0 +1,59 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 1px;
+  border-width: 0px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.horizon {
+  content: ' ';
+  background: black;
+  height: 1px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.profile {
+  text-align: center;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 1.5em;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social div {
+  border-width: 1px;
+  border-style: solid;
+  width: 150px;
+  text-align: center;
+  margin: 15px;
+}
+
+.social div li {
+  list-style: none;
+  text-align: center;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */
